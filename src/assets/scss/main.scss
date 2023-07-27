@@ -1,0 +1,15 @@
+// Variable overrides first
+$primary: #35B9B4;
+$secondary: #4472C4;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// import Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+// import Bootstrap-icons
+@import "../../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+form label {
+  color: $primary;
+  font-weight: bold;
+}
